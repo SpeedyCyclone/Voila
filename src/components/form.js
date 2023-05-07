@@ -3,7 +3,7 @@ import styles from "../styles/Form.module.css";
 export default function Form({ addHome }) {
   return (
     <>
-      <form action="/" method="post" className={styles.form}>
+      <form action="/api/homes" method="post" className={styles.form}>
         <div className={styles.inputgroup}>
           <label>Title</label>
           <input
