@@ -1,0 +1,53 @@
+.voila {
+  font-size: 30px;
+  margin-left: 15px;
+  font-weight: bold;
+  text-decoration: none;
+  cursor: pointer;
+  color: black;
+}
+
+.link {
+  text-decoration: none;
+}
+
+.loginbtn {
+  background-color: var(--red);
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  width: 80px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 500;
+  margin-left: 40px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.flexbox {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.firstdiv {
+  width: 20%;
+  height: 50px;
+  display: flex;
+}
+
+.seconddiv {
+  width: 20%;
+  display: flex;
+  font-size: 15px;
+  height: 50px;
+  cursor: pointer;
+}
+
+.li {
+  list-style: none;
+  margin-top: 10px;
+  color: black;
+}
