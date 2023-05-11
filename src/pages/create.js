@@ -14,7 +14,7 @@ export default function Create() {
   });
 
   if (status === "loading") {
-    router.push("/api/auth/signin");
+    router?.push("/api/auth/signin");
   }
   return (
     <>
