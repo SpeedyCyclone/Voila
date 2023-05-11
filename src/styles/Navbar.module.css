@@ -9,6 +9,7 @@
 
 .link {
   text-decoration: none;
+  color: black;
 }
 
 .loginbtn {
@@ -19,7 +20,7 @@
   width: 80px;
   height: 30px;
   font-size: 15px;
-  font-weight: 500;
+  font-weight: 600;
   margin-left: 40px;
   margin-top: 5px;
   cursor: pointer;
@@ -30,6 +31,8 @@
   display: flex;
   justify-content: space-between;
   margin-left: 20px;
+  flex-wrap: wrap;
+  flex-direction: row;
 }
 
 .firstdiv {
@@ -49,5 +52,4 @@
 .li {
   list-style: none;
   margin-top: 10px;
-  color: black;
 }

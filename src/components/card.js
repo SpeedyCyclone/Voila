@@ -1,5 +1,5 @@
 import Link from "next/link";
-import PropTypes from "prop-types";
+
 import styles from "../styles/Card.module.css";
 
 export default function Card({

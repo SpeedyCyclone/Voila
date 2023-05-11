@@ -1,8 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 import styles from "../styles/Navbar.module.css";
+import { useSession } from "next-auth/react";
 
 export default function Navbar() {
+  const { data: session, status } = useSession();
   return (
     <>
       <nav>
@@ -23,7 +25,15 @@ export default function Navbar() {
             <Link href="/create" className={styles.link}>
               <li className={styles.li}>List your home</li>
             </Link>
-            <button className={styles.loginbtn}>Log In</button>
+            {status === "authenticated" ? (
+              <Link href="/profile" className={styles.link}>
+                <button className={styles.loginbtn}>Profile</button>
+              </Link>
+            ) : (
+              <Link href="/api/auth/signin" className={styles.link}>
+                <button className={styles.loginbtn}>Log In</button>
+              </Link>
+            )}
           </div>
         </div>
       </nav>

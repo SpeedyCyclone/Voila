@@ -1,0 +1,37 @@
+.heading {
+  font-size: 30px;
+  font-weight: bold;
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+}
+
+.loginbtn {
+  background-color: var(--red);
+  border: none;
+  border-radius: 5px;
+  color: var(--white);
+  width: 200px;
+  height: 30px;
+  font-size: 15px;
+  font-weight: 600;
+  margin-top: 100px;
+  cursor: pointer;
+  margin-left: 20px;
+}
+
+.flex {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
